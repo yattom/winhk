@@ -1,0 +1,15 @@
+# coding: utf-8
+
+# To define a executable file, simply put into a variable.
+evernote = r'C:\Program Files (x86)\Evernote\Evernote\Evernote.exe'
+
+# To execute with command line arguments, use a list.
+# (Currently you cannot pass parameters from winhk interface.)
+note = [r"C:\Program Files (x86)\vim\vim80\vim.exe", "-R", "note.txt"]
+
+# http:// or https:// link will also wok.
+facebook = 'https://www.facebook.com'
+
+# You can define a callable (function) to be executed.
+def hello():
+    print("Hello!")

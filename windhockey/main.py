@@ -1,5 +1,3 @@
-import win32con
-
 import winhk
 from command_window import CommandWindow
 
